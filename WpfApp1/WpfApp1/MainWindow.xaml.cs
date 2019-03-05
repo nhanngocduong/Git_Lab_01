@@ -24,5 +24,13 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void BtnShow_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(
+                "Thông báo",
+                "Xin chào mọi người"
+                );
+        }
     }
 }
