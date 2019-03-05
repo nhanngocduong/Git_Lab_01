@@ -32,5 +32,13 @@ namespace WpfApp1
                 "Xin chào mọi người"
                 );
         }
+
+        private void BtnHello_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(
+                "Message",
+                "Hello"
+                );
+        }
     }
 }
